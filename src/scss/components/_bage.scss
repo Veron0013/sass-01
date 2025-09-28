@@ -1,0 +1,17 @@
+@use "../utils/forwarded" as fw;
+
+.bage {
+	@include fw.bage-base();
+
+	color: fw.$bage-cl;
+}
+
+.bage-completed {
+	background-color: fw.$completed;
+}
+.bage-ended {
+	background-color: fw.$ended;
+}
+.bage-active {
+	background-color: fw.$active;
+}
